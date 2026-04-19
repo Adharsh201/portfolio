@@ -9,7 +9,7 @@ const skillGroups = [
     category: "Automation Testing",
     emoji: "⚡",
     color: "#38bdf8",
-    skills: ["Vitest", "Playwright", "Cypress", "Selenium", "E2E Testing", "Script Development"],
+    skills: ["Vitest", "Playwright", "Cypress", "Selenium", "E2E Testing", "AI Agentic Testing", "Script Development"],
   },
   {
     category: "API Testing",

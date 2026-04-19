@@ -4,7 +4,7 @@ const projects = [
     subtitle: "Manual Testing Project",
     type: "Manual QA",
     color: "#6ee7b7",
-    docLink: "#",
+    docLink: "https://docs.google.com/spreadsheets/d/1KFrR25SyJjWvSVi-fMnBMPZMLqk3XR1XbahcQwmCOXU/edit?usp=drivesdk",
     description:
       "Performed manual testing on the IdeaCoach platform — an AI-powered system that generates project ideas based on user preferences such as technology stack, problem domain, field of interest, and difficulty level.",
     bullets: [
@@ -19,7 +19,7 @@ const projects = [
     subtitle: "Manual Testing Project",
     type: "Manual QA",
     color: "#38bdf8",
-    repoLink: "https://github.com",
+    repoLink: "https://go-pomodoro.vercel.app/",
     description:
       "Performed manual functional testing of the Go-based Pomodoro CLI tool using the GitHub project build to validate countdown accuracy and timer behavior.",
     bullets: [
