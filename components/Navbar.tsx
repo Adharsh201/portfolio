@@ -47,7 +47,7 @@ export default function Navbar() {
         </ul>
 
         <a
-          href="mailto:adharshdont hagani18@gmail.com"
+          href="mailto:adharshdonthagani18@gmail.com"
           className="hidden md:inline-flex items-center gap-2 px-4 py-2 rounded-full border border-[#6ee7b7]/40 text-[#6ee7b7] text-sm hover:bg-[#6ee7b7]/10 transition-all duration-200 font-mono"
         >
           Hire Me

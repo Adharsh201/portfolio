@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <section
@@ -47,10 +49,18 @@ export default function Hero() {
           {/* CTA row */}
           <div className="flex flex-wrap gap-4 justify-center lg:justify-start animate-fade-up animate-delay-400">
             <a
-              href="#projects"
-              className="px-6 py-3 rounded-full bg-[#6ee7b7] text-[#0a0a0f] text-sm font-600 font-sans hover:bg-[#34d399] transition-colors duration-200"
+              href="https://drive.google.com/file/d/1tFOuSVGJxhjP7fDmJSsF6Twmf2Rd0r0d/view"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-3 rounded-full bg-[#6ee7b7] text-[#0a0a0f] text-sm font-600 font-sans hover:bg-[#34d399] transition-colors duration-200 flex items-center gap-2"
             >
-              View Projects
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="flex-shrink-0">
+                <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" />
+                <polyline points="14,2 14,8 20,8" />
+                <line x1="12" y1="18" x2="12" y2="12" />
+                <polyline points="9,15 12,18 15,15" />
+              </svg>
+              Resume / CV
             </a>
             <a
               href="#contact"
@@ -72,7 +82,7 @@ export default function Hero() {
               LinkedIn
             </a>
             <a
-              href="mailto:adharshdont hagani18@gmail.com"
+              href="mailto:adharshdonthagani18@gmail.com"
               className="group flex items-center gap-2 text-[#4a4a6a] hover:text-[#6ee7b7] transition-colors text-sm font-mono"
             >
               <MailIcon />
@@ -91,13 +101,14 @@ export default function Hero() {
         {/* Photo */}
         <div className="relative flex-shrink-0 animate-fade-up animate-delay-400">
           <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-3xl border border-[#1e1e2e] bg-[#111118] overflow-hidden relative glow">
-            {/* Placeholder avatar */}
-            <div className="w-full h-full flex flex-col items-center justify-center gap-3">
-              <div className="w-24 h-24 rounded-full bg-gradient-to-br from-[#6ee7b7] to-[#38bdf8] flex items-center justify-center text-[#0a0a0f] text-4xl font-display font-800">
-                AD
-              </div>
-              <p className="text-[#4a4a6a] text-xs font-mono">Replace with photo</p>
-            </div>
+            <Image
+              src="/photo.jpg"
+              alt="Adharsh Donthagani"
+              fill
+              priority
+              sizes="(min-width: 1024px) 320px, 256px"
+              className="object-cover"
+            />
             {/* Decorative corner */}
             <div className="absolute top-4 right-4 w-3 h-3 rounded-full bg-[#6ee7b7] animate-pulse2" />
           </div>

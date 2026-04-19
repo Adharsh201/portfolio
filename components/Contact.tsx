@@ -13,13 +13,13 @@ export default function Contact() {
         {/* Contact cards */}
         <div className="grid sm:grid-cols-3 gap-4 mb-12">
           <a
-            href="mailto:adharshdont hagani18@gmail.com"
+            href="mailto:adharshdonthagani18@gmail.com"
             className="bg-[#111118] border border-[#1e1e2e] rounded-2xl p-5 card-hover flex flex-col items-center gap-3 group"
           >
             <span className="text-3xl group-hover:scale-110 transition-transform duration-200">📧</span>
             <div>
               <p className="text-[#e2e8f0] text-sm font-600 font-display">Email</p>
-              <p className="text-[#4a4a6a] text-xs font-mono mt-0.5 break-all">adharshdont hagani18<br/>@gmail.com</p>
+              <p className="text-[#4a4a6a] text-xs font-mono mt-0.5 break-all">adharshdonthagani18<br/>@gmail.com</p>
             </div>
           </a>
 
@@ -35,7 +35,7 @@ export default function Contact() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/adharshdonthagani"
+            href="https://www.linkedin.com/in/adharsh-donthagani-938939312/"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#111118] border border-[#1e1e2e] rounded-2xl p-5 card-hover flex flex-col items-center gap-3 group"
@@ -49,7 +49,7 @@ export default function Contact() {
         </div>
 
         <a
-          href="mailto:adharshdont hagani18@gmail.com"
+          href="mailto:adharshdonthagani18@gmail.com"
           className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-[#6ee7b7] text-[#0a0a0f] font-600 hover:bg-[#34d399] transition-colors duration-200 text-base"
         >
           <span>✉️</span>
